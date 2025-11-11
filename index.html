@@ -93,6 +93,7 @@
             background: #aca8d1;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(15, 15, 15, 0.05);
+            font-size: 1.3em;
         }
 
         .about-section h2 {
@@ -314,7 +315,7 @@
 
     <script>
         function showSection(id) {
-            const sections = ['about', 'cv'];
+            const sections = ['about', 'publications', 'cv'];
             sections.forEach(s => {
                 document.getElementById(s).style.display = (s === id) ? 'block' : 'none';
             });
